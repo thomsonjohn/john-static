@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import hero from "./assets/img/hero-shot.jpeg";
+import hero from "./assets/img/profile-pic.jpg";
 import "./styles/App.css";
 
 class App extends Component {
@@ -15,10 +15,7 @@ class App extends Component {
             I'm John, a digital developer based in Edinburgh, bonnie Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿
           </p>
           <p>
-            I'm also a designer, a creative technologist, a wannabe football
-            player, athlete, coffee addict and prefer craft beers over lager and
-            I eat avocado on toast. I'll also probably never be able to afford
-            to buy a house 🏡🙅🏻‍♂️
+            I'm also a football fanatic, love to keep fit, play games and eat good food!
           </p>
           <p className="emoji-string">🎨 👨🏻‍💻 ⚽️ 🏋🏻‍♂️ ☕️ 🍻 🥑 </p>
           <p>
@@ -29,19 +26,31 @@ class App extends Component {
         <div className="social-media">
           <ul>
             <li>
-              <a href="https://twitter.com/JohnThomson_" class="fa fa-twitter" />
+              <a
+                href="https://twitter.com/JohnThomson_"
+                class="fa fa-twitter"
+              />
             </li>
             <li>
               <a href="https://github.com/thomsonjohn" class="fa fa-github" />
             </li>
             <li>
-              <a href="https://www.instagram.com/johnthomson_/" class="fa fa-instagram" />
+              <a
+                href="https://www.instagram.com/johnthomson_/"
+                class="fa fa-instagram"
+              />
             </li>
             <li>
-              <a href="https://dribbble.com/JohnThomson_" class="fa fa-dribbble" />
+              <a
+                href="https://dribbble.com/JohnThomson_"
+                class="fa fa-dribbble"
+              />
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/john-thomson/" class="fa fa-linkedin" />
+              <a
+                href="https://www.linkedin.com/in/john-thomson/"
+                class="fa fa-linkedin"
+              />
             </li>
           </ul>
         </div>
