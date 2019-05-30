@@ -12,12 +12,17 @@ class App extends Component {
         <h1 className="App-title">Hey,</h1>
         <div className="body-text">
           <p>
-            I'm John, a digital developer based in Edinburgh, bonnie Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿
+            I'm John, a digital developer based in Edinburgh, bonnie Scotland <span role="img" aria-label="scotland flag">🏴󠁧󠁢󠁳󠁣󠁴󠁿</span>
           </p>
           <p>
             I'm also a football fanatic, love to keep fit, play games and eat good food!
           </p>
-          <p className="emoji-string">🎨 👨🏻‍💻 ⚽️ 🏋🏻‍♂️ ☕️ 🍻 🥑 </p>
+          <p className="emoji-string">
+            <span role="img" aria-label="coder">👨🏻‍💻 </span>
+            <span role="img" aria-label="football">⚽️ </span>
+            <span role="img" aria-label="weight lifter">🏋🏻‍♂️ </span>
+            <span role="img" aria-label="coffee">☕️</span>
+          </p>
           <p>
             If you've got a project and you think it's cool, or if you just want
             to say hello, get in touch.
@@ -36,25 +41,13 @@ class App extends Component {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/johnthomson_/"
-                class="fa fa-instagram"
-              />
-            </li>
-            <li>
-              <a
-                href="https://dribbble.com/JohnThomson_"
-                class="fa fa-dribbble"
-              />
-            </li>
-            <li>
-              <a
                 href="https://www.linkedin.com/in/john-thomson/"
                 class="fa fa-linkedin"
               />
             </li>
           </ul>
         </div>
-        <p className="copyright">© John Thomson</p>
+        <p className="copyright">© John Thomson, 2019</p>
       </div>
     );
   }
